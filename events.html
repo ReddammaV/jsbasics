@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<!-- window event for resize -->
+<!-- <body onresize="alertMe()"> -->
 
 <body>
     <!-- nav -->
@@ -21,7 +23,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
@@ -33,7 +35,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="functions.html">Functions</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
@@ -55,7 +57,70 @@
     <!-- section start -->
     <section>
         <div class="container">
-            <h1>Hello Please open Console</h1>
+            <h3>Events</h3>
+            <!-- Click Event -->
+            <h4>Click Event</h4>
+            <button class="btn btn-primary" onclick="myClick()">On Click</button>
+            <p id="click"></p>
+
+            <!-- Double Click Event -->
+            <h4>Double Click Event</h4>
+            <button class="btn btn-primary" ondblclick="mydblClick()">On Double Click</button>
+            <p id="dblclick"></p>
+
+            <!-- Right Click Event -->
+            <h4>Right Click Event</h4>
+            <button class="btn btn-primary" oncontextmenu="alertMe()">On Right Click</button>
+
+            <!-- Mouse Hover Event -->
+            <h4>Mouse Hover Event</h4>
+            <button class="btn btn-primary" onmouseenter="alertMe()">On Mouse Hover</button>
+
+            <!-- Mouse Out Event -->
+            <h4>Mouse Out Event</h4>
+            <button class="btn btn-primary" onmouseout="alertMe()">On Mouse Out</button>
+
+            <!-- Mouse Down Event -->
+            <h4>Mouse Down Event</h4>
+            <button class="btn btn-primary" onmousedown="alertMe()">On Mouse Down</button>
+
+            <!-- Mouse Up Event -->
+            <h4>Mouse Up Event</h4>
+            <button class="btn btn-primary" onmouseup="alertMe()">On Mouse Up</button>
+
+            <!-- Keypress Event -->
+            <h4>Keypress Event</h4>
+            <button class="btn btn-primary" onkeypress="alertMe()">On Keypress</button>
+
+            <!-- KeyUp Event -->
+            <h4>KeyUp Event</h4>
+            <button class="btn btn-primary" onkeyup="alertMe()">On KeyUp</button>
+
+            <!-- Mouse Events -->
+            <h3>Mouse Events</h3>
+            <p>Click (onclick)</p>
+            <p>Double Click (ondblclick)</p>
+            <p>Right Click (oncontextmenu)</p>
+            <p>Mouse Hover (onmouseenter)</p>
+            <p>Mouse Out (onmouseout)</p>
+            <p>Mouse Down (onmousedown)</p>
+            <p>Mouse Up (onmouseup)</p>
+
+            <!-- Keyboard Events -->
+            <h3>Keyboard Events</h3>
+            <p>Keypress (onkeypress)</p>
+            <p>KeyUp (onkeyup)</p>
+
+            <!-- Window Events -->
+            <h3>Window Events (It works for body tag)</h3>
+            <p>Load (onload)</p>
+            <p>UnLoad (onunload)</p>
+            <p>Resize (onresize)</p>
+            <p>Scroll (onscroll)</p>
+
+
+
+            <!-- content goes here by js -->
         </div>
     </section>
     <!-- section end -->
@@ -65,9 +130,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- bootstrap -->
-    <script src="js/console.js"></script>
-    <!-- <script src="js/variables.js"></script> -->
-    <script src="js/datatypes.js"></script>
+
+    <script src="js/events.js"></script>
 </body>
 
 </html>

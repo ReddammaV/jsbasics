@@ -43,3 +43,12 @@ console.log( typeof findName);
 let date = new Date();
 console.log( typeof date);
 
+document.write("<div class='container'>Hello World with container class <br> </div>")
+document.write("<div class='container'> <b>Hello World with container class and bold tag</b></div>")
+
+var myName = "Reddy";
+document.write("<div class=container>" + myName + "</div>");
+
+
+
+

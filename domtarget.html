@@ -8,7 +8,7 @@
     <title>JS Basics</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/domtarget.css">
 </head>
 
 <body>
@@ -143,6 +143,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="domtarget.html">DOM Targeting Methods</a>
+                        <a class="dropdown-item" href="getandset.html">DOM GET & SET Value Methods</a>
                     </div>
                 </li>
                 <!-- DOM end -->
@@ -154,7 +155,52 @@
     <!-- section start -->
     <section>
         <div class="container">
-            <!-- content coming from js  -->
+            <!-- simple template -->
+            <div id="wrapper">
+                <div id="header">
+                    <h1>Welcome to JS</h1>
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <div id="content" class="col-md-8">
+                        <h2>Sub Heading</h2>
+                        <p>
+                            <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="150" alt="">
+                            Eiusmod nulla labore dolor sint nisi esse et ut occaecat proident proident tempor. Tempor
+                            culpa
+                            mollit velit dolor aliqua. In nostrud eu esse pariatur id ea tempor ullamco. Nostrud Lorem
+                            nulla
+                            consequat reprehenderit sint labore sit non. Minim laboris est esse quis deserunt incididunt
+                            officia. Pariatur officia sit quis excepteur est deserunt laboris.
+                        </p>
+                        <ul id="list">
+                            <li>Pariatur do laborum dolor nisi sint commodo.</li>
+                            <li>Tempor dolor amet aute non.</li>
+                            <li>Nulla consequat anim dolore consequat pariatur laborum amet sunt ad eiusmod ut.</li>
+                            <li>Amet pariatur do quis sit sunt elit in.</li>
+                        </ul>
+                    </div>
+                    <div id="sidebar" class="col-md-4">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="footer">
+                    <p>Copy Rights 2019</p>
+                </div>
+            </div>
+            <!-- simple template -->
         </div>
     </section>
     <!-- section end -->
@@ -164,7 +210,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- bootstrap -->
-    <script src="js/datemethods.js"></script>
+    <script src="js/domtarget.js"></script>
 </body>
 
 </html>

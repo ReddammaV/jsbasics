@@ -8,7 +8,7 @@
     <title>JS Basics</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/parentelement.css">
 </head>
 
 <body>
@@ -143,6 +143,15 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="domtarget.html">DOM Targeting Methods</a>
+                        <a class="dropdown-item" href="getandset.html">DOM GET & SET Value Methods</a>
+                        <a class="dropdown-item" href="queryselector.html">querySelector & querySelectorAll</a>
+                        <a class="dropdown-item" href="cssstyling.html">CSS Styling</a>
+                        <a class="dropdown-item" href="addlistner.html">addEventListner</a>
+                        <a class="dropdown-item" href="classlist.html">classList</a>
+                        <a class="dropdown-item" href="parentelement.html">parentElement & parentNode</a>
+                        <a class="dropdown-item" href="childrenandchild.html">children & childNodes</a>
+                        <a class="dropdown-item" href="firstandlast.html">firstChild & lastChild</a>
+                        <a class="dropdown-item" href="nextandprevious.html">nextSibling & previousSibling</a>
                     </div>
                 </li>
                 <!-- DOM end -->
@@ -152,9 +161,21 @@
     <!-- nav -->
 
     <!-- section start -->
-    <section>
+    <section class="mt-3">
         <div class="container">
-            <!-- content coming from js  -->
+            <!-- simple template -->
+            <div id="outer">
+                <h2>Outer</h2>
+                <div id="inner">
+                    <h2>Inner</h2>
+                    <div class="row">
+                        <div class="col-md-2 box">A</div>
+                        <div class="col-md-2 box">B</div><div class="col-md-2 box" id="child-c">C</div><div class="col-md-2 box">D</div>
+                        <div class="col-md-2 box">E</div>
+                    </div>
+                </div>
+            </div>
+            <!-- simple template -->
         </div>
     </section>
     <!-- section end -->
@@ -164,7 +185,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- bootstrap -->
-    <script src="js/datemethods.js"></script>
+    <script src="js/nextandprevious.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,44 @@
+#header {
+  background: crimson;
+  padding: 1em;
+  color: #fff;
+}
+#menu {
+  width: 100%;
+  background: violet;
+  padding: 1em;
+}
+#menu ul {
+  width: 100%;
+  background: violet;
+  padding: 0;
+}
+#menu ul li {
+  float: left;
+  display: inline-block;
+  margin-right: 2em;
+}
+#menu ul li a{
+  color: #fff;
+}
+#footer {
+  background: crimson;
+  color: #fff;
+  padding: 0.5em;
+}
+#content {
+  background: #eee;
+  padding: 1em;
+}
+#sidebar {
+  background: #f1d5f1;
+  border-left: 1px solid #8a8a8a;
+  padding: 1em;
+}
+#sidebar ul li a{
+  color: #000000;
+}
+img{
+  float: left;
+  padding-right: 0.5em;
+}

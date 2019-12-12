@@ -1,0 +1,18 @@
+#outer {
+    background: #b7e68b;
+    padding: 2em;
+}
+
+#inner {
+    background: #f9637d;
+    padding: 1em;
+}
+
+.box {
+    /* display: flex; */
+    /* width: 200px;
+    height: 200px; */
+    background: #ddd;
+    margin: 0.5em;
+    padding: 2em;
+}

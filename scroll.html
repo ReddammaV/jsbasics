@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Basics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/parentelement.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!-- for loop start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        For Loops
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="for.html">For Loop</a>
+                        <a class="dropdown-item" href="forin.html">forin Loop</a>
+                        <a class="dropdown-item" href="forof.html">forof Loop</a>
+                    </div>
+                </li>
+                <!-- for loop end -->
+                <!-- array start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Arrays
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="arrays.html">Basic Array</a>
+                        <a class="dropdown-item" href="sortandreverse.html">Sort and Reverse</a>
+                        <a class="dropdown-item" href="popandpush.html">Pop and Push</a>
+                        <a class="dropdown-item" href="shiftandunshift.html">Shift and Unshift</a>
+                        <a class="dropdown-item" href="concatandjoin.html">Concat and Join</a>
+                        <a class="dropdown-item" href="sliceandsplice.html">Slice and Splice</a>
+                        <a class="dropdown-item" href="indexandlastindex.html">indexOf and lastIndexOf</a>
+                        <a class="dropdown-item" href="includes.html">includes</a>
+                        <a class="dropdown-item" href="someandevery.html">some and every</a>
+                        <a class="dropdown-item" href="findandfindIndex.html">find and findIndex</a>
+                        <a class="dropdown-item" href="filterarray.html">filter</a>
+                        <a class="dropdown-item" href="tostringvalueoffill.html">toString, valueOf, fill</a>
+                        <a class="dropdown-item" href="foreach.html">forEach</a>
+                        <a class="dropdown-item" href="map.html">Map</a>
+                    </div>
+                </li>
+                <!-- arrays end -->
+                <!-- object start -->
+                <li class="nav-item">
+                    <a class="nav-link" href="object.html">Object</a>
+                </li>
+                <!-- object end -->
+                <!-- string method start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        String Methods
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="stringmethods1.html">string Methods1</a>
+                        <a class="dropdown-item" href="stringmethods2.html">string Methods2</a>
+                    </div>
+                </li>
+                <!-- string method end -->
+                <!-- Number Method start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Number Methods
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="number.html">Number</a>
+                        <a class="dropdown-item" href="parseint.html">parseInt</a>
+                        <a class="dropdown-item" href="parsefloat.html">parseFloat</a>
+                        <a class="dropdown-item" href="isfinite.html">isFinite</a>
+                        <a class="dropdown-item" href="isinteger.html">isInteger</a>
+                        <a class="dropdown-item" href="tofixed.html">toFixed</a>
+                        <a class="dropdown-item" href="toprecision.html">toPrecision</a>
+                    </div>
+                </li>
+                <!-- Number Method end -->
+                <!-- Math & Date Method start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Math & Date Methods
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="ceil.html">ceil</a>
+                        <a class="dropdown-item" href="floor.html">floor</a>
+                        <a class="dropdown-item" href="round.html">round</a>
+                        <a class="dropdown-item" href="trunc.html">trunc</a>
+                        <a class="dropdown-item" href="max.html">max</a>
+                        <a class="dropdown-item" href="min.html">min</a>
+                        <a class="dropdown-item" href="sqrt.html">sqrt</a>
+                        <a class="dropdown-item" href="cbrt.html">cbrt</a>
+                        <a class="dropdown-item" href="pow.html">pow</a>
+                        <a class="dropdown-item" href="random.html">random</a>
+                        <a class="dropdown-item" href="abs.html">abs</a>
+                        <a class="dropdown-item" href="pi.html">pi</a>
+                        <a class="dropdown-item" href="datemethods.html">Date Methods</a>
+                    </div>
+                </li>
+                <!-- Math & Date Method end -->
+                <!-- All Individuals start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        All Individuals
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="operators.html">Operators</a>
+                        <a class="dropdown-item" href="ifandelse.html">if and else</a>
+                        <a class="dropdown-item" href="functions.html">Functions</a>
+                        <a class="dropdown-item" href="events.html">Events</a>
+                        <a class="dropdown-item" href="filter.html">Filter</a>
+                        <a class="dropdown-item" href="addeventlistner.html">Add EventListner</a>
+                    </div>
+                </li>
+                <!-- All Individuals end -->
+                <!-- DOM start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        DOM
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="domtarget.html">DOM Targeting Methods</a>
+                        <a class="dropdown-item" href="getandset.html">DOM GET & SET Value Methods</a>
+                        <a class="dropdown-item" href="queryselector.html">querySelector & querySelectorAll</a>
+                        <a class="dropdown-item" href="cssstyling.html">CSS Styling</a>
+                        <a class="dropdown-item" href="addlistner.html">addEventListner</a>
+                        <a class="dropdown-item" href="classlist.html">classList</a>
+                        <a class="dropdown-item" href="parentelement.html">parentElement & parentNode</a>
+                        <a class="dropdown-item" href="childrenandchild.html">children & childNodes</a>
+                        <a class="dropdown-item" href="firstandlast.html">firstChild & lastChild</a>
+                        <a class="dropdown-item" href="nextandprevious.html">nextSibling & previousSibling</a>
+                        <a class="dropdown-item" href="createmethods.html">create methods</a>
+                        <a class="dropdown-item" href="appendmethods.html">append methods</a>
+                        <a class="dropdown-item" href="createappendmethods.html">create append methods</a>
+                        <a class="dropdown-item" href="replaceandremove.html">replaceChild and removeChild</a>
+                        <a class="dropdown-item" href="clonenode.html">cloneNode</a>
+                        <a class="dropdown-item" href="contains.html">contains</a>
+                        <a class="dropdown-item" href="hasattributeandhaschildnodes.html">hasAttribute and
+                            hasChildNodes</a>
+                        <a class="dropdown-item" href="isequalnode.html">isEqualNode</a>
+                    </div>
+                </li>
+                <!-- DOM end -->
+                <!-- Forms start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Forms
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="formevents.html">Form Events</a>
+                    </div>
+                </li>
+                <!-- Forms end -->
+                <!-- Set Methods start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Set Methods
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="setinterval.html">setInterval and clearInterval</a>
+                        <a class="dropdown-item" href="settimeout.html">setTimeout and clearTimeout</a>
+                    </div>
+                </li>
+                <!-- Set Methods end -->
+                <!-- BOM start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        BOM
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="heightwidth.html">Height and Width</a>
+                        <a class="dropdown-item" href="openclose.html">Open and Close</a>
+                        <a class="dropdown-item" href="move.html">moveBy and moveTo</a>
+                        <a class="dropdown-item" href="resize.html">resizeBy and resizeTo</a>
+                        <a class="dropdown-item" href="scroll.html">scrollBy and scrollTo</a>
+                        <a class="dropdown-item" href="location.html">Location</a>
+                    </div>
+                </li>
+                <!-- BOM end -->
+            </ul>
+        </div>
+    </nav>
+    <!-- nav -->
+
+    <!-- section start -->
+    <section class="mt-3">
+        <div class="container">
+            <!-- start -->
+            <!-- <div class="bg-dark ">
+                <button class="btn btn-info" style="position: fixed; top: 70px; left:50px;" onclick="scrollBydownWindow()">ScrollBy Down Window</button>
+                <button class="btn btn-info" style="position: fixed; top: 70px; left:300px;" onclick="scrollTodownWindow()">ScrollTo Down Window</button>
+            </div> -->
+            <h2>Javascript - scrollBy and scrollTo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam temporibus consequuntur neque veritatis modi accusantium, fugiat quae ducimus vel laboriosam et odio doloremque minus laborum dolorum, mollitia, exercitationem porro odit?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, consequatur libero, aut sunt amet praesentium dolorum, suscipit odit esse vitae est nostrum neque commodi eos doloremque animi voluptas dolores. Dolorum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nisi adipisci ipsum, ad molestias nam rerum asperiores sed, maiores a obcaecati iusto, quos eveniet sapiente laboriosam distinctio fugit. A, facilis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur illo atque veniam blanditiis at, dolores impedit, autem consequuntur ad reiciendis est perspiciatis amet. Iusto odit perspiciatis odio. Quia.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt beatae dolorem blanditiis nobis deserunt, in perspiciatis quos sunt quisquam debitis tempora at dignissimos officia, cumque ipsa delectus, cum magni?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi aspernatur? Minima dolorum aperiam, distinctio veritatis dolores odit? Tenetur eligendi, ratione voluptas unde modi consequatur laborum labore hic repellendus officiis.lorem1500
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, neque unde! Vel voluptate aperiam neque, fugit reprehenderit sapiente tempore repellat dolorum delectus at officia sed hic nam? Earum harum dolor iusto ipsam molestias. Reiciendis quam, asperiores eligendi perspiciatis, hic repellat consequatur sequi amet deleniti illo corporis odit ex atque! Voluptatum eum unde non perferendis assumenda rem temporibus, doloribus magni, expedita veritatis sequi error earum ratione corrupti cumque odio deserunt. Accusamus libero rem fuga laudantium enim quod facilis hic illum mollitia aliquam fugiat nam impedit quos nemo vero, ut tenetur amet eum minus. Voluptatem esse doloremque dolorum exercitationem eum quia quasi odio quas. Eos dignissimos voluptatibus omnis error saepe modi aliquam esse quam, et deserunt maiores nesciunt possimus assumenda voluptate doloremque ipsum. Impedit recusandae ipsam voluptatibus repellendus aliquid. Officia dolore excepturi nulla in dolorum quos incidunt, enim at, similique voluptatum adipisci, molestiae nostrum quidem! Ab unde illo eveniet, quod qui labore molestias, beatae nisi autem cupiditate fuga totam facilis voluptates necessitatibus, expedita non corporis velit quibusdam ex et numquam aperiam inventore dolorem! Voluptatum nulla iure repellat! Inventore ut autem deserunt ipsum, omnis vero ea distinctio tempore architecto provident beatae doloribus voluptatibus quibusdam aperiam reprehenderit nostrum quas eos hic asperiores, quis repellendus corrupti! Esse ipsam cumque iste cupiditate officiis earum blanditiis, doloremque minima debitis nobis libero tempora sunt quam aliquam dolore possimus et nihil iure, voluptatum ab nam obcaecati, porro fugiat illum. Voluptate nulla repellendus maiores deserunt nam aperiam, quod perspiciatis sunt, fugiat accusantium dolor ratione, voluptates consequuntur quam ipsum repellat minima quis at magni repudiandae! Sapiente culpa veniam sit corrupti sint nostrum aliquam nihil laudantium unde. Delectus corporis molestiae fuga cumque eveniet quas asperiores enim odio! Tempora, distinctio perferendis totam debitis dolorem optio iure blanditiis similique mollitia doloremque fugit. Voluptates, voluptatibus aliquid tempore inventore earum, exercitationem sunt iste, reiciendis nesciunt amet eveniet nam quisquam odit saepe doloremque incidunt fugit eos! Impedit minima ab tempore reiciendis! Debitis eveniet consequuntur numquam, ducimus cumque assumenda tenetur nemo illum nisi, quisquam non cum quos nostrum ipsum mollitia voluptas dignissimos aliquam maiores quae repudiandae voluptatibus. Expedita qui reprehenderit nesciunt debitis facere neque similique sapiente, error dolor molestias quam! Facere numquam esse autem iure labore animi cum iste placeat fugiat commodi, laudantium sequi laborum sunt laboriosam nostrum enim aliquam aliquid asperiores! Optio consectetur recusandae error minima quia cupiditate fugit nostrum, ut perspiciatis magni, rem placeat odio aut illo cum! Nam perferendis at, rerum ullam dignissimos ipsam doloribus necessitatibus deserunt id reprehenderit molestiae accusamus voluptas provident veritatis modi nobis! Ex, consequatur. Saepe aliquid voluptatibus quo unde est architecto voluptate aperiam debitis ad velit beatae, distinctio deserunt id enim tenetur dolore necessitatibus eum ipsum atque veritatis? In, distinctio saepe. Eveniet, error quidem aliquam dignissimos, veritatis enim placeat iusto, id vitae fugit dolore eius corrupti eaque distinctio cupiditate molestias architecto illo eum quos explicabo repudiandae perferendis voluptatibus facere odio. Adipisci, quos error? Quisquam adipisci dolores omnis dolorum illum excepturi consequatur animi harum hic eius reprehenderit architecto placeat quae culpa sit vero eos rerum praesentium temporibus, autem qui perferendis distinctio. Officia, quam? Incidunt eius dignissimos suscipit doloribus non blanditiis quibusdam et facere molestiae similique repudiandae voluptates hic impedit qui iusto repellat aspernatur quidem necessitatibus excepturi quod repellendus, id officia ex. Illum sequi ipsa tenetur, ipsum, sint velit enim dolores facilis nisi veniam dolor rerum assumenda quis excepturi animi vitae, maxime quae consequuntur a? Quo, eveniet? Aspernatur, nostrum ipsa autem ullam dolore ea in quod sapiente facere doloremque non enim obcaecati, aliquam, iure quas consequatur illum pariatur reprehenderit voluptatibus fugit quam vero. Est quisquam, beatae sapiente asperiores voluptas neque perspiciatis perferendis, quasi nam minima veritatis nulla aliquam praesentium cupiditate! Doloremque voluptatibus natus similique facere distinctio dignissimos necessitatibus cum animi explicabo, aut unde, officiis nesciunt. Vel dolore sint adipisci, eum odio ullam quam ab inventore animi voluptate ipsam nesciunt assumenda totam iste sequi nisi ipsum, eveniet harum error, maiores eos eaque voluptatem. Eligendi dicta nulla voluptatibus quam sit neque vel eveniet, ab suscipit dolores nostrum dolor dignissimos velit officia dolorem, architecto laborum maiores alias temporibus nisi, et voluptates fugiat. Saepe, laborum at quam, in veritatis quod doloribus error vitae quasi soluta est nostrum harum neque asperiores. Quis iusto, vero nobis omnis quos laborum obcaecati in tempore hic sit sapiente sint quod laudantium eos itaque qui, non iste, asperiores dicta molestiae. Esse blanditiis quos perferendis, ullam accusamus labore fuga porro sunt repellendus, quo cum sint doloribus eius ea ut omnis vitae, voluptatem nobis dolorum nisi culpa officia saepe laborum voluptatibus. Similique quasi repellendus sint, omnis quae eveniet provident adipisci eius esse dolore necessitatibus molestiae voluptatum, voluptatem possimus dignissimos dolorem deleniti modi. Saepe, fuga ducimus tempora a laudantium at voluptate dicta natus voluptates consequuntur incidunt provident non. Voluptates, illo. Placeat dignissimos iusto, voluptas velit at atque sed reiciendis? Dolor voluptatem aut atque, asperiores nisi possimus natus temporibus deleniti autem inventore eveniet illo! Quam, veniam consequatur! Cum vero adipisci natus tenetur earum autem saepe quaerat illum amet, soluta esse excepturi consequatur ratione et facilis dolor repellendus aspernatur aliquam eveniet sed dignissimos hic sequi? Asperiores itaque aliquid officia, necessitatibus expedita iusto placeat reiciendis eaque illo aut odit delectus error nisi sunt consectetur soluta a? Quidem totam illum porro? In illo nisi deleniti ad eius, provident nam est quasi earum voluptatem laboriosam libero at molestiae maiores odit nulla corporis? Recusandae impedit repellat quas dolor nihil eveniet temporibus iste! Impedit, delectus debitis aperiam alias explicabo cumque distinctio voluptatibus vitae exercitationem laborum animi iusto ullam optio temporibus, corrupti, atque voluptatum dolorum. Eos nisi eveniet, quasi illo, ea quibusdam, recusandae cum rem magnam temporibus suscipit? Distinctio officiis officia sit unde, maxime minus temporibus consequatur culpa vero facilis numquam vel quidem laboriosam deleniti obcaecati vitae quod porro a ex earum quisquam maiores? Repellat consequuntur commodi quam cumque dolores quod velit optio quasi iusto in, reprehenderit magnam ullam non et est sint voluptate? Officia ullam consectetur, rerum cum adipisci voluptas vel dignissimos facilis molestiae officiis! Aut sint, asperiores modi, laboriosam obcaecati neque praesentium aliquam consectetur a provident id eligendi atque voluptatibus rerum voluptates, consequatur impedit. Sunt ab, dignissimos doloremque laboriosam ex alias neque sed voluptate cupiditate distinctio, laborum repellendus corrupti cumque ducimus earum voluptates facere vel qui beatae. Nemo ratione expedita eaque voluptates similique atque nisi nesciunt minima nobis ipsa. Nemo distinctio, consequuntur voluptas esse eaque magni natus pariatur tenetur ipsum reprehenderit et inventore repellat corrupti deleniti quas rem ratione fugiat unde suscipit doloremque culpa. Nesciunt aperiam vel voluptate eos earum, architecto, numquam ab deserunt laboriosam libero minus vero qui. Doloribus distinctio dolorum voluptate minus soluta temporibus qui dolor quis, officia dignissimos alias consequuntur corrupti voluptatum delectus quasi tempore illum. Natus, atque velit itaque, qui consequatur nulla nostrum, exercitationem corrupti officia possimus quisquam fugiat ea beatae? Debitis porro provident sint inventore veritatis quae, tempore rem aliquid delectus dolores! Mollitia officia ullam, ipsum nisi eligendi rerum sed dolorem, nam odio repudiandae illo voluptatem nesciunt culpa quas laudantium. Reprehenderit animi, officiis possimus cupiditate mollitia expedita id! Excepturi iste praesentium modi sed animi. Rerum iure alias aliquam assumenda, saepe molestiae voluptatum quisquam consectetur sequi nihil libero doloremque vel hic ad commodi atque cum expedita modi nobis tempore. Pariatur delectus dolore magni officia nam saepe rerum exercitationem soluta inventore quisquam ea reprehenderit aliquam aspernatur velit laborum, corporis voluptates culpa facilis expedita id repudiandae doloremque obcaecati? Ipsum voluptatem suscipit magnam assumenda harum cumque recusandae, rem temporibus deleniti saepe eum excepturi nisi doloribus sed similique sapiente maiores aut. Laborum libero earum inventore eum praesentium eveniet reprehenderit repellat! Corrupti fugit tempore est culpa veritatis cum quasi maiores sunt accusamus recusandae, voluptas nulla ea temporibus quaerat repellat repellendus beatae! Consequatur, alias aspernatur molestiae officiis provident harum quis velit architecto delectus tempore quo doloribus impedit unde, sit quod enim fuga? Aliquam provident eius veritatis corrupti ipsam sapiente, commodi consequuntur. Nihil maxime, et labore nulla nesciunt nobis eveniet perferendis dolore, eligendi fugit ratione adipisci dignissimos? Explicabo provident obcaecati mollitia voluptatibus repudiandae culpa veritatis officiis, ab consequatur sed minima suscipit pariatur rerum debitis ipsa iste possimus distinctio et delectus voluptas totam animi. Ducimus, consectetur sit harum corrupti ipsum natus commodi quia laborum architecto quam quo similique mollitia sapiente aspernatur placeat, ad, maxime voluptatibus perspiciatis ea voluptates asperiores doloribus provident deserunt. Impedit eius, quod, expedita tenetur ab provident nihil, laboriosam alias tempora commodi velit? Eius distinctio est temporibus vero error laboriosam optio officiis. Error dolorum, voluptatibus officiis est vero, ipsum debitis veritatis architecto ipsam nisi blanditiis ea rerum ex sed facere repudiandae harum delectus sit cupiditate. Libero quia recusandae fugiat alias cupiditate sit ducimus consequatur corporis amet minima beatae consectetur optio ratione assumenda dicta, sapiente iure dolores quam delectus architecto ex laborum. Non, molestiae nobis. Non repellat voluptates placeat esse dolores. Eius aperiam autem quod vero. Voluptas aspernatur, modi perspiciatis dolore cumque in nesciunt suscipit, porro sapiente praesentium nemo consequatur aut blanditiis, enim delectus ea assumenda quidem fugiat facilis vel accusamus adipisci nobis maiores cupiditate? In nisi ab repellendus cum odio, corporis, porro tempore fugiat, voluptatem voluptas quasi enim quod! Vero omnis provident quis a recusandae commodi laboriosam iste? Unde labore consequuntur repellendus rem id eaque suscipit enim totam, officiis non numquam deserunt odio placeat.
+            </p>
+            <div class="bg-dark ">
+                <button class="btn btn-info" style="position: fixed; bottom: 10px; left:50px;" onclick="scrollByWindow()">ScrollBy Window</button>
+                <button class="btn btn-info" style="position: fixed; bottom: 10px; left:200px;" onclick="scrollToWindow()">ScrollTo Window</button>
+            </div>
+            <!-- end -->
+        </div>
+    </section>
+    <!-- section end -->
+
+    <!-- bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>

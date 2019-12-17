@@ -153,9 +153,39 @@
                         <a class="dropdown-item" href="firstandlast.html">firstChild & lastChild</a>
                         <a class="dropdown-item" href="nextandprevious.html">nextSibling & previousSibling</a>
                         <a class="dropdown-item" href="createmethods.html">create methods</a>
+                        <a class="dropdown-item" href="appendmethods.html">append methods</a>
+                        <a class="dropdown-item" href="createappendmethods.html">create append methods</a>
+                        <a class="dropdown-item" href="replaceandremove.html">replaceChild and removeChild</a>
+                        <a class="dropdown-item" href="clonenode.html">cloneNode</a>
+                        <a class="dropdown-item" href="contains.html">contains</a>
+                        <a class="dropdown-item" href="hasattributeandhaschildnodes.html">hasAttribute and
+                            hasChildNodes</a>
+                        <a class="dropdown-item" href="isequalnode.html">isEqualNode</a>
                     </div>
                 </li>
                 <!-- DOM end -->
+                <!-- Forms start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Forms
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="formevents.html">Form Events</a>
+                    </div>
+                </li>
+                <!-- Forms end -->
+                <!-- Set Methods start -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Set Methods
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="setinterval.html">setInterval and clearInterval</a>
+                    </div>
+                </li>
+                <!-- Set Methods end -->
             </ul>
         </div>
     </nav>
@@ -164,19 +194,39 @@
     <!-- section start -->
     <section class="mt-3">
         <div class="container">
-            <!-- simple template -->
-            <div id="outer">
-                <h2>Outer</h2>
-                <div id="inner">
-                    <h2>Inner</h2>
-                    <div class="row">
-                        <div class="col-md-2 box">A</div>
-                        <div class="col-md-2 box">B</div><div class="col-md-2 box" id="child-c">C</div><div class="col-md-2 box">D</div>
-                        <div class="col-md-2 box">E</div>
-                    </div>
+            <!-- form template -->
+            <form action="#" onsubmit="formSubmit(this)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Name" required oninvalid="invalidFuction()" onfocus="focusFunction(this)" onblur="blurFunction(this)" oninput="inputFunction(this)" onselect="selectFunction()">
+                    <small class="text-danger" id="invalidText"></small>
                 </div>
-            </div>
-            <!-- simple template -->
+
+                <div class="form-group">
+                    <label for="class">Class</label>
+                    <input type="text" class="form-control" id="class" placeholder="Enter Class" onfocus="focusFunction(this)" onblur="blurFunction(this)" oninput="inputFunction(this)" onselect="selectFunction()">
+                </div>
+
+                <div class="form-group">
+                    <label for="select">Select</label>
+                    <select class="form-control" id="select" onfocus="focusFunction(this)" onblur="blurFunction(this)" oninput="inputFunction(this)" onchange="changeFunction(this)" onselect="selectFunction()">
+                        <option value="india">India</option>
+                        <option value="srilanka">Srilanka</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="nepal">Nepal</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
+            <!-- form template -->
+            <!-- input value div -->
+            <div id="inputValue"></div>
+            <!-- input value div -->
+
+            <!-- change value div -->
+            <div id="changeValue"></div>
+            <!-- change value div -->
         </div>
     </section>
     <!-- section end -->
@@ -186,7 +236,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- bootstrap -->
-    <script src="js/nextandprevious.js"></script>
+    <script src="js/formevents.js"></script>
 </body>
 
 </html>
